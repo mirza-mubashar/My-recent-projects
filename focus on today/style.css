@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #48A30012;
+}
+.container{
+    width: 80%;
+    margin: 15px auto;
+    padding: 20px;
+    
+}
+.title{
+    text-align: center;
+    color:#48A300;
+    margin: 10px 0;
+}
+.title > span{
+    color: #61481C;
+}
+.sub-container{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0.5px rgba(94, 255, 0, 0.781);
+}
+#heading{
+    display: flex;
+}
+#sun{
+    width: 48px;
+    height: 42px;
+    margin: -9px 5px;
+}
+.progress-bar-title{
+    margin: 10px 0;
+    font-size: 10px;
+    line-height: 21px;
+}
+#progress-bar{
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+    background-color: rgba(72, 163, 0, 0.1);
+}
+#progress-value{
+    width: 30.33%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(72, 163, 0, 1);
+    display: flex;
+    color: #FBFBFB;
+    padding: 1px 5px;
+    margin: 1px;
+}
+#progress-value-numeric{
+    font-size: 10px;
+    padding: 1px;
+}
+.error-message{
+    font-size: 10px;
+    color: red;
+    position: absolute;
+    top: 38%;
+    /* display: none; */
+}
+.task-container{
+    /* border: 1px solid red; */
+    background-color: #FBFBFB;
+    margin-top: 40px ;
+    width: 100%;
+}
+.task{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 100%;
+    margin: 5px 0;
+}
+.checks{
+    width: 20px;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 10px;
+
+}
+.checks:hover{
+    cursor: pointer;
+}
+.task input[type = 'text']{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.completed .check-tick{
+    background-color: #48A300;
+}
+.completed .check-text{
+    color: #48A300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quote{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>
+                <a href="#" class="legend-a"><h3>Login Credentials</h3></a>
+            </legend>
+
+            <form id="login-form" action="">
+                <div class="form-element">
+                    <input type="email" id="email"  placeholder="Your email">
+                </div>
+                <div class="form-element">
+                    <input type="password" id="name" placeholder="Your password">
+                </div>
+                <div class="login-button">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+            <div class="external-links">
+                <ul>
+                    <li><a href="#">Forgot password?</a></li>
+                    <li><a href="#">Need help?</a></li>
+                    <li><a href="#">Contact us !</a></li>
+                </ul>
+            </div>
+            <div class="terms-of-use">
+                <h3><a href="#">Terms and conditions</a></h3>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad animi est iste optio quidem facilis quasi temporibus maiores, illo ipsa?</p>
+            </div>
+        </fieldset>
+        
+
+    </div>
+</body>
+<style>
+    .external-links {
+        margin: 20px;
+    }
+    .external-links li {
+        list-style: none;
+    }
+    .external-links a {
+        text-decoration: none;
+    }
+    .terms-of-use p{
+        margin-top: 10px;
+    }
+    .terms-of-use{
+        width: 60%;
+        margin: 20px auto;
+    }
+    .login-button{
+        width: 20%;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        margin: 15px auto;
+    }
+    .login-button input{
+        width: 100%;
+        background-color: green;
+        font-size: 14px;
+        padding: 5px;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+    }
+    .form-element{
+        width: 50%;
+        margin: 5px auto;
+    }
+    .form-element input{
+        outline: none;
+        border-radius: 8px;
+        width: 100%;
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    #login-form{
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+
+    }
+    .container{
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+    legend{
+        margin: 15px;
+    }
+    .legend-a{
+        text-decoration: none;
+    }
+    .legend-a h3{
+        margin: 10px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+</style>
+
+</html>
